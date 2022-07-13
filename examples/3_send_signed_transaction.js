@@ -6,7 +6,7 @@ const provider = new ethers.providers.JsonRpcProvider(`https://kovan.infura.io/v
 const account1 = '' // Your account address 1
 const account2 = '' // Your account address 2
 
-const privateKey1 = '' // Private key of account 1
+const privateKey1 = '' // Private key of account 1+
 const wallet = new ethers.Wallet(privateKey1, provider)
 
 const main = async () => {
